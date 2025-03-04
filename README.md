@@ -1,41 +1,67 @@
-# Pet Breed Information System
+# 🐾 Pet Breed Information System
 
-A Streamlit web application that provides detailed information about various pet breeds including dogs, cats, birds, and small animals.
+A Streamlit web application that provides detailed information about different pet breeds, including their characteristics, care requirements, and suitability for different living situations.
 
-## Features
-- Search for pet breeds (case-insensitive)
-- View detailed information about each breed:
-  - Animal type
-  - Average lifespan
-  - Size
-  - Color
+## 🌟 Features
+
+- Search and view detailed information about various pet breeds
+- User-friendly interface with autocomplete search
+- Comprehensive breed information including:
+  - Basic characteristics
+  - Care requirements
   - Temperament
-  - Apartment suitability
+  - Living space suitability
   - Grooming needs
-  - Trainability
+  - Training difficulty
 
-## Installation
-1. Clone this repository
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-3. Initialize the database:
-```bash
-python init_db.py
-```
+## 🚀 Deployment Instructions
 
-## Running Locally
-```bash
-streamlit run app.py
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/aromalsaji23/petshop.git
+   cd petshop
+   ```
 
-## Deployment
-This app can be deployed on Streamlit Cloud:
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-1. Create an account on [Streamlit Cloud](https://streamlit.io/cloud)
-2. Connect your GitHub repository
-3. Deploy the app with the following settings:
-   - Main file path: `app.py`
-   - Python version: 3.9+
-   - Requirements: `requirements.txt`
+3. Run the Streamlit app locally:
+   ```bash
+   streamlit run streamlit_app.py
+   ```
+
+4. Deploy to Streamlit Cloud:
+   - Visit [share.streamlit.io](https://share.streamlit.io)
+   - Sign in with your GitHub account
+   - Select this repository and deploy
+
+## 📦 Dependencies
+
+- Python 3.7+
+- Streamlit
+- Pandas
+- SQLite3
+
+## 🗃️ Database
+
+The application uses a SQLite database (`pets.db`) containing detailed information about various pet breeds. The database includes the following information for each breed:
+
+- Breed name
+- Animal type
+- Size
+- Color
+- Lifespan
+- Temperament
+- Apartment suitability
+- Grooming requirements
+- Trainability
+
+## 🤝 Contributing
+
+Feel free to fork this repository and submit pull requests to contribute to this project. You can also open issues for any bugs or feature requests.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
