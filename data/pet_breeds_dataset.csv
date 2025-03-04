@@ -1,0 +1,501 @@
+Breed,Animal Type,Average Lifespan (years),Size Category,Common Color,Temperament,Suitable for Apartment,Grooming Needs,Trainability
+Maine Coon,Cat,11,Medium,Golden,Playful,Yes,High,Difficult
+Maine Coon,Cat,6,Small,Golden,Friendly,No,High,Moderate
+Labrador Retriever,Dog,14,Large,Brown,Friendly,No,Medium,Easy
+Siamese Cat,Cat,13,Small,Black,Playful,Yes,Medium,Easy
+Labrador Retriever,Dog,6,Medium,Mixed,Friendly,No,Low,Moderate
+Rabbit,Small Animal,19,Small,Black,Calm,No,High,Easy
+Rabbit,Small Animal,8,Small,Golden,Playful,No,Low,Difficult
+Golden Retriever,Dog,18,Large,Mixed,Playful,No,Low,Moderate
+Macaw,Bird,17,Medium,White,Loyal,Yes,Medium,Easy
+Macaw,Bird,18,Small,Black,Calm,Yes,Low,Difficult
+Persian Cat,Cat,18,Small,Golden,Playful,No,High,Moderate
+Golden Retriever,Dog,16,Large,Black,Energetic,Yes,Low,Moderate
+Rabbit,Small Animal,8,Small,Brown,Energetic,No,Medium,Difficult
+Siamese Cat,Cat,19,Medium,Gray,Loyal,No,Medium,Moderate
+Parrot,Bird,14,Medium,Brown,Loyal,No,Medium,Easy
+German Shepherd,Dog,16,Medium,Black,Aggressive,Yes,Low,Easy
+German Shepherd,Dog,17,Medium,White,Friendly,No,Low,Moderate
+Macaw,Bird,11,Small,Gray,Aggressive,Yes,High,Moderate
+Golden Retriever,Dog,7,Large,White,Energetic,Yes,High,Moderate
+Rabbit,Small Animal,6,Small,Golden,Friendly,No,Medium,Difficult
+Parrot,Bird,13,Small,Brown,Calm,No,High,Easy
+Maine Coon,Cat,17,Medium,Black,Calm,Yes,Medium,Difficult
+Hamster,Small Animal,18,Small,Brown,Energetic,No,Medium,Moderate
+Labrador Retriever,Dog,6,Large,Black,Energetic,No,Medium,Difficult
+Hamster,Small Animal,12,Small,Gray,Aggressive,Yes,Medium,Difficult
+German Shepherd,Dog,14,Medium,White,Calm,No,Low,Easy
+Macaw,Bird,12,Medium,White,Friendly,No,High,Difficult
+Hamster,Small Animal,10,Small,White,Playful,Yes,Low,Difficult
+Hamster,Small Animal,11,Small,White,Energetic,Yes,Medium,Easy
+Hamster,Small Animal,12,Small,Black,Energetic,No,Medium,Easy
+Guinea Pig,Small Animal,8,Small,Gray,Loyal,Yes,High,Moderate
+Rabbit,Small Animal,18,Small,White,Calm,Yes,Medium,Easy
+Parrot,Bird,20,Small,Gray,Energetic,Yes,High,Easy
+Macaw,Bird,18,Small,Golden,Energetic,No,High,Easy
+Maine Coon,Cat,9,Medium,Brown,Calm,No,Medium,Moderate
+Hamster,Small Animal,13,Small,White,Friendly,Yes,Low,Moderate
+Macaw,Bird,10,Small,Brown,Loyal,No,Medium,Difficult
+Persian Cat,Cat,12,Small,Brown,Energetic,No,High,Difficult
+Hamster,Small Animal,11,Small,Golden,Calm,Yes,Low,Moderate
+Labrador Retriever,Dog,17,Medium,Black,Aggressive,No,Medium,Difficult
+Cockatiel,Bird,14,Small,White,Aggressive,Yes,Low,Moderate
+Maine Coon,Cat,19,Medium,White,Playful,No,Low,Easy
+Golden Retriever,Dog,16,Medium,Gray,Friendly,No,High,Easy
+Cockatiel,Bird,18,Small,Black,Playful,Yes,Low,Easy
+German Shepherd,Dog,13,Large,Black,Calm,No,Low,Easy
+Golden Retriever,Dog,9,Small,Mixed,Playful,Yes,Low,Difficult
+Golden Retriever,Dog,20,Large,Golden,Energetic,Yes,Medium,Moderate
+Persian Cat,Cat,18,Medium,White,Friendly,Yes,Low,Moderate
+Golden Retriever,Dog,9,Small,Black,Playful,Yes,Medium,Difficult
+Guinea Pig,Small Animal,20,Small,Black,Calm,No,Low,Difficult
+Guinea Pig,Small Animal,13,Small,White,Playful,No,Low,Easy
+Hamster,Small Animal,7,Small,White,Aggressive,No,High,Moderate
+Guinea Pig,Small Animal,10,Small,Gray,Calm,No,High,Moderate
+Guinea Pig,Small Animal,14,Small,Golden,Energetic,No,High,Moderate
+Macaw,Bird,6,Small,Gray,Loyal,Yes,Medium,Easy
+Cockatiel,Bird,11,Medium,Golden,Loyal,No,Medium,Moderate
+Rabbit,Small Animal,20,Small,Golden,Energetic,Yes,High,Moderate
+Siamese Cat,Cat,9,Small,Gray,Playful,Yes,High,Easy
+Parrot,Bird,13,Small,Gray,Friendly,Yes,Medium,Easy
+Labrador Retriever,Dog,18,Small,Black,Playful,Yes,High,Difficult
+Rabbit,Small Animal,14,Small,Mixed,Calm,Yes,High,Easy
+Persian Cat,Cat,5,Small,Golden,Loyal,Yes,Low,Difficult
+Maine Coon,Cat,15,Medium,White,Calm,No,Medium,Easy
+Labrador Retriever,Dog,14,Large,Golden,Energetic,Yes,Medium,Difficult
+German Shepherd,Dog,14,Small,Brown,Friendly,No,Medium,Difficult
+German Shepherd,Dog,12,Small,White,Playful,Yes,Low,Moderate
+Parrot,Bird,17,Small,Gray,Calm,No,Low,Difficult
+Siamese Cat,Cat,11,Medium,Black,Playful,No,Medium,Moderate
+Golden Retriever,Dog,12,Medium,White,Playful,Yes,Low,Difficult
+Macaw,Bird,18,Small,Mixed,Friendly,No,High,Moderate
+Siamese Cat,Cat,13,Small,Black,Friendly,Yes,Medium,Difficult
+Parrot,Bird,17,Small,Golden,Calm,Yes,High,Easy
+Labrador Retriever,Dog,18,Small,Gray,Playful,Yes,Low,Difficult
+Persian Cat,Cat,12,Small,Golden,Loyal,Yes,Medium,Moderate
+Guinea Pig,Small Animal,6,Small,Mixed,Calm,No,High,Moderate
+Guinea Pig,Small Animal,16,Small,Gray,Friendly,No,High,Moderate
+German Shepherd,Dog,14,Large,Gray,Aggressive,No,Low,Moderate
+Labrador Retriever,Dog,19,Large,Golden,Energetic,Yes,Medium,Moderate
+Guinea Pig,Small Animal,16,Small,Black,Friendly,Yes,Medium,Moderate
+Labrador Retriever,Dog,7,Large,Brown,Loyal,No,High,Easy
+German Shepherd,Dog,19,Medium,Black,Aggressive,No,High,Moderate
+Rabbit,Small Animal,13,Small,Gray,Energetic,No,Medium,Moderate
+German Shepherd,Dog,5,Medium,Black,Playful,Yes,Medium,Difficult
+Golden Retriever,Dog,9,Small,Brown,Calm,No,Low,Easy
+Parrot,Bird,5,Small,Brown,Playful,No,Medium,Difficult
+Rabbit,Small Animal,14,Small,Black,Aggressive,No,Low,Moderate
+Golden Retriever,Dog,11,Small,Golden,Playful,Yes,High,Moderate
+Persian Cat,Cat,7,Small,Black,Playful,No,Low,Moderate
+Guinea Pig,Small Animal,8,Small,Gray,Energetic,No,Low,Moderate
+Siamese Cat,Cat,15,Medium,Gray,Loyal,Yes,Medium,Moderate
+Maine Coon,Cat,12,Small,Brown,Calm,No,Low,Difficult
+Persian Cat,Cat,11,Medium,Golden,Friendly,Yes,High,Moderate
+Golden Retriever,Dog,9,Medium,Gray,Calm,Yes,High,Easy
+German Shepherd,Dog,18,Small,Black,Energetic,Yes,Medium,Moderate
+Guinea Pig,Small Animal,12,Small,Golden,Friendly,Yes,High,Easy
+Maine Coon,Cat,17,Medium,White,Energetic,No,Medium,Moderate
+Rabbit,Small Animal,7,Small,Brown,Playful,No,Low,Difficult
+Rabbit,Small Animal,17,Small,Golden,Aggressive,Yes,Medium,Easy
+Cockatiel,Bird,9,Small,Golden,Friendly,Yes,Medium,Difficult
+German Shepherd,Dog,8,Large,Golden,Loyal,No,Medium,Moderate
+Cockatiel,Bird,14,Small,Black,Calm,Yes,Low,Difficult
+Cockatiel,Bird,9,Small,White,Aggressive,No,Medium,Moderate
+Guinea Pig,Small Animal,16,Small,White,Friendly,Yes,High,Moderate
+Guinea Pig,Small Animal,13,Small,Golden,Calm,No,Low,Difficult
+Persian Cat,Cat,17,Small,Golden,Energetic,No,Medium,Moderate
+Macaw,Bird,18,Small,Brown,Aggressive,Yes,Medium,Moderate
+Siamese Cat,Cat,8,Medium,Black,Friendly,Yes,Medium,Difficult
+Persian Cat,Cat,12,Medium,Golden,Aggressive,No,High,Moderate
+Cockatiel,Bird,15,Small,Black,Friendly,No,Low,Moderate
+German Shepherd,Dog,17,Large,Black,Friendly,Yes,Medium,Easy
+German Shepherd,Dog,16,Medium,Black,Aggressive,Yes,Low,Moderate
+Parrot,Bird,5,Medium,Black,Loyal,No,Low,Difficult
+Macaw,Bird,12,Small,Gray,Loyal,No,Low,Moderate
+Rabbit,Small Animal,16,Small,Gray,Playful,No,High,Moderate
+Parrot,Bird,17,Medium,Mixed,Aggressive,Yes,High,Difficult
+Maine Coon,Cat,19,Medium,Gray,Aggressive,No,Low,Difficult
+Maine Coon,Cat,10,Small,White,Aggressive,Yes,High,Moderate
+Rabbit,Small Animal,15,Small,Mixed,Friendly,No,Low,Easy
+Maine Coon,Cat,15,Medium,Brown,Calm,Yes,Medium,Moderate
+Macaw,Bird,12,Medium,White,Playful,No,Medium,Easy
+Maine Coon,Cat,19,Medium,White,Aggressive,No,High,Moderate
+Golden Retriever,Dog,11,Medium,Brown,Calm,Yes,Low,Moderate
+Persian Cat,Cat,8,Medium,Mixed,Energetic,No,Medium,Moderate
+Cockatiel,Bird,15,Medium,Golden,Energetic,No,High,Easy
+Guinea Pig,Small Animal,17,Small,Gray,Playful,No,Medium,Difficult
+Siamese Cat,Cat,19,Small,Mixed,Playful,No,Medium,Moderate
+Persian Cat,Cat,13,Small,Gray,Friendly,Yes,Low,Easy
+Macaw,Bird,17,Small,Black,Aggressive,No,High,Easy
+Persian Cat,Cat,15,Medium,Gray,Calm,Yes,High,Easy
+Persian Cat,Cat,5,Small,Golden,Loyal,Yes,Low,Easy
+Cockatiel,Bird,10,Medium,Mixed,Playful,Yes,Medium,Difficult
+Parrot,Bird,8,Medium,Brown,Friendly,No,High,Difficult
+Golden Retriever,Dog,11,Large,Mixed,Energetic,No,High,Easy
+Golden Retriever,Dog,7,Medium,Golden,Calm,Yes,Medium,Easy
+Persian Cat,Cat,10,Medium,Black,Aggressive,No,Low,Moderate
+Guinea Pig,Small Animal,8,Small,Black,Calm,Yes,Medium,Moderate
+Persian Cat,Cat,19,Small,White,Aggressive,Yes,Low,Difficult
+Parrot,Bird,14,Medium,Golden,Loyal,No,Medium,Difficult
+Maine Coon,Cat,7,Small,Black,Loyal,No,High,Difficult
+Rabbit,Small Animal,16,Small,Black,Friendly,No,Low,Difficult
+Cockatiel,Bird,8,Medium,White,Loyal,No,Medium,Easy
+Hamster,Small Animal,19,Small,Brown,Aggressive,No,Medium,Easy
+Persian Cat,Cat,17,Medium,Mixed,Energetic,No,Low,Easy
+Persian Cat,Cat,8,Small,Mixed,Calm,Yes,Medium,Easy
+Macaw,Bird,8,Medium,Mixed,Aggressive,Yes,Medium,Moderate
+Hamster,Small Animal,17,Small,Mixed,Playful,Yes,High,Moderate
+Macaw,Bird,10,Small,Golden,Aggressive,Yes,High,Easy
+Guinea Pig,Small Animal,11,Small,Gray,Energetic,No,Medium,Difficult
+Macaw,Bird,5,Small,Black,Friendly,No,High,Moderate
+Maine Coon,Cat,6,Small,Golden,Calm,Yes,Low,Difficult
+Macaw,Bird,14,Medium,Gray,Calm,Yes,Medium,Moderate
+German Shepherd,Dog,12,Small,Mixed,Friendly,No,Low,Moderate
+Cockatiel,Bird,19,Medium,Mixed,Calm,No,Medium,Difficult
+Parrot,Bird,16,Medium,Black,Playful,Yes,Medium,Easy
+German Shepherd,Dog,20,Large,Golden,Playful,No,High,Easy
+Parrot,Bird,13,Medium,Mixed,Aggressive,Yes,High,Easy
+Hamster,Small Animal,11,Small,White,Loyal,No,Medium,Easy
+Persian Cat,Cat,14,Medium,White,Energetic,No,High,Easy
+Golden Retriever,Dog,14,Medium,Golden,Energetic,Yes,Medium,Moderate
+Parrot,Bird,17,Medium,Gray,Energetic,Yes,Medium,Difficult
+Siamese Cat,Cat,14,Medium,White,Energetic,Yes,Low,Easy
+Guinea Pig,Small Animal,10,Small,Golden,Calm,Yes,Medium,Difficult
+Golden Retriever,Dog,17,Medium,Mixed,Playful,No,High,Easy
+Hamster,Small Animal,10,Small,Mixed,Friendly,No,High,Difficult
+Maine Coon,Cat,6,Small,Golden,Calm,No,High,Moderate
+Cockatiel,Bird,14,Medium,Gray,Energetic,Yes,Low,Difficult
+Macaw,Bird,5,Medium,Black,Loyal,No,High,Moderate
+German Shepherd,Dog,20,Small,Gray,Energetic,No,Medium,Easy
+Golden Retriever,Dog,9,Small,Brown,Playful,No,Low,Moderate
+German Shepherd,Dog,14,Small,Gray,Loyal,Yes,Medium,Easy
+Parrot,Bird,18,Small,White,Aggressive,No,High,Easy
+Hamster,Small Animal,16,Small,Golden,Calm,No,Medium,Moderate
+Hamster,Small Animal,12,Small,Golden,Loyal,Yes,Medium,Difficult
+Golden Retriever,Dog,20,Large,Mixed,Playful,No,Medium,Moderate
+Parrot,Bird,15,Small,Black,Friendly,No,High,Easy
+German Shepherd,Dog,15,Small,Mixed,Aggressive,No,High,Difficult
+Siamese Cat,Cat,19,Medium,Golden,Calm,Yes,Low,Easy
+Golden Retriever,Dog,14,Medium,Gray,Playful,Yes,High,Difficult
+Golden Retriever,Dog,13,Medium,White,Playful,No,Low,Easy
+Cockatiel,Bird,15,Medium,White,Friendly,Yes,High,Difficult
+Maine Coon,Cat,19,Small,Brown,Loyal,No,Low,Easy
+Cockatiel,Bird,12,Medium,Mixed,Playful,Yes,Low,Easy
+Cockatiel,Bird,19,Medium,Golden,Friendly,No,Medium,Moderate
+Hamster,Small Animal,7,Small,Brown,Playful,Yes,High,Easy
+Maine Coon,Cat,16,Small,Brown,Aggressive,Yes,Medium,Easy
+Rabbit,Small Animal,8,Small,Brown,Calm,No,Medium,Difficult
+Persian Cat,Cat,18,Medium,Brown,Loyal,No,Medium,Difficult
+Persian Cat,Cat,15,Medium,Black,Aggressive,No,High,Moderate
+Macaw,Bird,5,Medium,Mixed,Friendly,Yes,Medium,Easy
+Golden Retriever,Dog,6,Large,Black,Friendly,Yes,Medium,Easy
+Guinea Pig,Small Animal,9,Small,Gray,Calm,No,Low,Difficult
+Siamese Cat,Cat,18,Medium,Gray,Friendly,No,High,Moderate
+Persian Cat,Cat,12,Medium,Gray,Playful,Yes,Medium,Difficult
+Guinea Pig,Small Animal,14,Small,White,Aggressive,Yes,Low,Moderate
+Guinea Pig,Small Animal,19,Small,Brown,Playful,Yes,Low,Moderate
+Persian Cat,Cat,17,Medium,Golden,Energetic,No,High,Moderate
+Golden Retriever,Dog,5,Medium,Mixed,Calm,No,Medium,Easy
+Parrot,Bird,18,Small,Mixed,Loyal,Yes,High,Easy
+Siamese Cat,Cat,5,Small,Brown,Friendly,No,Low,Difficult
+Maine Coon,Cat,14,Medium,Brown,Friendly,Yes,Low,Moderate
+Persian Cat,Cat,7,Small,Golden,Aggressive,No,High,Difficult
+Golden Retriever,Dog,19,Medium,Mixed,Aggressive,No,High,Difficult
+Golden Retriever,Dog,12,Small,Golden,Loyal,Yes,High,Easy
+Parrot,Bird,10,Small,Mixed,Calm,Yes,Medium,Moderate
+Labrador Retriever,Dog,14,Large,Brown,Loyal,No,Medium,Easy
+German Shepherd,Dog,14,Medium,Mixed,Energetic,No,High,Easy
+Siamese Cat,Cat,18,Medium,Golden,Energetic,Yes,High,Difficult
+Siamese Cat,Cat,10,Small,Brown,Energetic,No,High,Moderate
+Golden Retriever,Dog,5,Medium,Brown,Playful,No,Medium,Easy
+German Shepherd,Dog,6,Large,Gray,Aggressive,No,Low,Easy
+Guinea Pig,Small Animal,19,Small,Brown,Playful,Yes,Low,Difficult
+Persian Cat,Cat,12,Medium,Gray,Loyal,Yes,Low,Easy
+Maine Coon,Cat,6,Small,Golden,Aggressive,Yes,Low,Easy
+Guinea Pig,Small Animal,20,Small,Mixed,Calm,Yes,Low,Difficult
+Rabbit,Small Animal,15,Small,Brown,Loyal,No,High,Difficult
+Siamese Cat,Cat,13,Medium,Brown,Calm,Yes,Medium,Moderate
+Hamster,Small Animal,16,Small,Gray,Calm,No,High,Difficult
+Cockatiel,Bird,11,Small,White,Energetic,No,Low,Easy
+Parrot,Bird,19,Small,Black,Loyal,No,High,Easy
+Macaw,Bird,8,Small,White,Playful,Yes,High,Easy
+Parrot,Bird,12,Small,Brown,Friendly,Yes,Low,Easy
+Persian Cat,Cat,6,Small,White,Playful,No,Medium,Difficult
+Cockatiel,Bird,9,Small,Black,Calm,No,Low,Easy
+Siamese Cat,Cat,12,Small,Mixed,Calm,No,Low,Easy
+Parrot,Bird,11,Medium,Brown,Aggressive,No,Low,Difficult
+Labrador Retriever,Dog,15,Medium,Gray,Aggressive,No,Medium,Difficult
+Rabbit,Small Animal,19,Small,Black,Loyal,No,Medium,Easy
+Maine Coon,Cat,7,Medium,Brown,Calm,No,Medium,Easy
+Siamese Cat,Cat,7,Small,Mixed,Aggressive,Yes,Medium,Moderate
+Hamster,Small Animal,19,Small,Brown,Energetic,Yes,Medium,Moderate
+Guinea Pig,Small Animal,20,Small,Gray,Aggressive,Yes,Low,Easy
+Rabbit,Small Animal,9,Small,Mixed,Aggressive,No,High,Difficult
+Guinea Pig,Small Animal,15,Small,Brown,Friendly,No,High,Moderate
+Macaw,Bird,15,Medium,White,Calm,No,High,Difficult
+German Shepherd,Dog,6,Small,Brown,Energetic,Yes,Medium,Moderate
+Maine Coon,Cat,17,Small,White,Aggressive,No,Medium,Moderate
+Hamster,Small Animal,11,Small,Golden,Energetic,No,Medium,Moderate
+Guinea Pig,Small Animal,11,Small,Brown,Friendly,Yes,Low,Difficult
+Maine Coon,Cat,9,Medium,Golden,Loyal,No,Low,Easy
+Maine Coon,Cat,14,Small,Mixed,Loyal,Yes,Low,Difficult
+Maine Coon,Cat,5,Small,Gray,Calm,Yes,Low,Moderate
+Maine Coon,Cat,12,Small,Golden,Loyal,No,Medium,Difficult
+Persian Cat,Cat,10,Medium,Brown,Calm,Yes,High,Easy
+German Shepherd,Dog,20,Small,Golden,Calm,No,Low,Moderate
+Rabbit,Small Animal,14,Small,Mixed,Loyal,No,Low,Easy
+Macaw,Bird,7,Medium,Gray,Loyal,Yes,Medium,Moderate
+Hamster,Small Animal,13,Small,White,Friendly,No,Low,Moderate
+Maine Coon,Cat,13,Small,White,Loyal,No,Medium,Difficult
+Maine Coon,Cat,17,Medium,Golden,Friendly,Yes,Low,Moderate
+Golden Retriever,Dog,16,Medium,Gray,Calm,No,High,Easy
+Maine Coon,Cat,12,Medium,Brown,Energetic,No,Low,Easy
+Hamster,Small Animal,9,Small,Golden,Aggressive,Yes,High,Moderate
+Macaw,Bird,15,Medium,Mixed,Friendly,Yes,Medium,Easy
+Parrot,Bird,17,Small,Black,Loyal,No,Low,Difficult
+Rabbit,Small Animal,16,Small,Black,Energetic,No,High,Moderate
+Cockatiel,Bird,5,Medium,Golden,Energetic,No,Medium,Difficult
+German Shepherd,Dog,11,Medium,Golden,Calm,No,High,Moderate
+Siamese Cat,Cat,20,Medium,Mixed,Energetic,No,High,Easy
+Macaw,Bird,8,Small,Mixed,Energetic,Yes,Low,Easy
+Parrot,Bird,19,Small,Golden,Calm,Yes,Medium,Moderate
+Hamster,Small Animal,20,Small,Mixed,Loyal,Yes,Low,Difficult
+Hamster,Small Animal,11,Small,Black,Calm,No,Medium,Moderate
+Macaw,Bird,18,Medium,Golden,Loyal,Yes,Medium,Difficult
+Rabbit,Small Animal,9,Small,White,Playful,No,High,Moderate
+Maine Coon,Cat,8,Small,Black,Energetic,Yes,High,Moderate
+Parrot,Bird,11,Medium,Gray,Energetic,Yes,High,Easy
+Cockatiel,Bird,7,Small,Golden,Calm,No,High,Difficult
+Rabbit,Small Animal,20,Small,White,Playful,Yes,Low,Easy
+Rabbit,Small Animal,6,Small,Mixed,Friendly,Yes,Low,Moderate
+Labrador Retriever,Dog,16,Small,Brown,Aggressive,No,High,Easy
+Maine Coon,Cat,8,Small,Black,Playful,No,Low,Moderate
+Cockatiel,Bird,6,Medium,Brown,Aggressive,Yes,Medium,Easy
+Cockatiel,Bird,18,Medium,White,Energetic,Yes,Medium,Moderate
+Maine Coon,Cat,10,Small,Black,Friendly,Yes,High,Difficult
+Labrador Retriever,Dog,8,Medium,Mixed,Playful,No,Medium,Difficult
+Parrot,Bird,6,Small,Gray,Calm,No,Low,Easy
+Labrador Retriever,Dog,8,Medium,Golden,Calm,No,High,Moderate
+Macaw,Bird,9,Medium,Brown,Loyal,No,Low,Easy
+German Shepherd,Dog,12,Small,Golden,Playful,Yes,High,Difficult
+Persian Cat,Cat,17,Small,Gray,Aggressive,No,Low,Difficult
+Golden Retriever,Dog,19,Medium,Golden,Energetic,Yes,High,Moderate
+Hamster,Small Animal,11,Small,Black,Friendly,Yes,High,Easy
+Guinea Pig,Small Animal,5,Small,Gray,Calm,Yes,High,Difficult
+Persian Cat,Cat,7,Small,Gray,Loyal,No,Low,Moderate
+Rabbit,Small Animal,20,Small,White,Playful,Yes,High,Moderate
+Labrador Retriever,Dog,5,Medium,White,Loyal,No,Medium,Moderate
+Rabbit,Small Animal,15,Small,White,Playful,Yes,High,Easy
+Siamese Cat,Cat,6,Medium,Golden,Loyal,Yes,Low,Moderate
+Cockatiel,Bird,13,Medium,Mixed,Aggressive,Yes,Low,Difficult
+Maine Coon,Cat,6,Medium,Black,Friendly,No,High,Difficult
+German Shepherd,Dog,12,Medium,Black,Calm,No,High,Moderate
+Rabbit,Small Animal,6,Small,Black,Energetic,Yes,Low,Difficult
+Labrador Retriever,Dog,14,Medium,Brown,Loyal,Yes,Low,Difficult
+Hamster,Small Animal,10,Small,Gray,Energetic,No,Low,Moderate
+Labrador Retriever,Dog,10,Medium,Mixed,Calm,Yes,Low,Moderate
+Golden Retriever,Dog,10,Large,White,Loyal,No,Medium,Difficult
+Cockatiel,Bird,20,Small,Mixed,Loyal,No,High,Difficult
+Cockatiel,Bird,20,Small,Black,Playful,No,Medium,Moderate
+Siamese Cat,Cat,16,Small,Black,Aggressive,Yes,Low,Easy
+Golden Retriever,Dog,9,Small,White,Aggressive,Yes,High,Easy
+Hamster,Small Animal,11,Small,Brown,Playful,No,High,Difficult
+German Shepherd,Dog,6,Small,Mixed,Energetic,Yes,Low,Moderate
+Cockatiel,Bird,9,Small,Mixed,Playful,Yes,Medium,Difficult
+Macaw,Bird,14,Medium,Golden,Aggressive,No,High,Easy
+Cockatiel,Bird,9,Small,Golden,Playful,Yes,Medium,Moderate
+Persian Cat,Cat,17,Small,Mixed,Calm,Yes,Medium,Easy
+Labrador Retriever,Dog,17,Medium,Brown,Aggressive,Yes,High,Difficult
+Cockatiel,Bird,13,Medium,White,Loyal,No,High,Difficult
+Siamese Cat,Cat,9,Medium,Golden,Playful,Yes,Medium,Easy
+Persian Cat,Cat,15,Medium,Brown,Friendly,Yes,High,Easy
+Parrot,Bird,16,Small,Gray,Playful,Yes,High,Moderate
+Parrot,Bird,7,Small,Golden,Energetic,No,High,Moderate
+Macaw,Bird,9,Small,Gray,Energetic,No,High,Moderate
+German Shepherd,Dog,11,Small,White,Playful,Yes,Medium,Moderate
+Persian Cat,Cat,12,Small,Black,Energetic,Yes,High,Easy
+Guinea Pig,Small Animal,9,Small,Gray,Loyal,Yes,High,Moderate
+Macaw,Bird,18,Small,Black,Energetic,Yes,Medium,Easy
+Guinea Pig,Small Animal,9,Small,Mixed,Aggressive,No,Low,Moderate
+Rabbit,Small Animal,11,Small,White,Energetic,No,Medium,Difficult
+Golden Retriever,Dog,13,Large,Mixed,Calm,Yes,High,Easy
+Maine Coon,Cat,17,Medium,Black,Playful,Yes,High,Easy
+Cockatiel,Bird,14,Medium,Gray,Energetic,No,Medium,Easy
+Rabbit,Small Animal,13,Small,Gray,Aggressive,No,Low,Easy
+Rabbit,Small Animal,13,Small,White,Playful,Yes,Low,Easy
+Persian Cat,Cat,5,Medium,Black,Calm,Yes,Low,Moderate
+Maine Coon,Cat,5,Small,Black,Aggressive,Yes,Medium,Easy
+Cockatiel,Bird,17,Medium,Brown,Aggressive,Yes,Medium,Difficult
+Golden Retriever,Dog,17,Medium,Gray,Loyal,Yes,Low,Moderate
+Persian Cat,Cat,20,Medium,Golden,Playful,No,Low,Moderate
+Hamster,Small Animal,6,Small,Black,Friendly,Yes,High,Easy
+Cockatiel,Bird,5,Medium,Gray,Calm,Yes,Medium,Moderate
+Labrador Retriever,Dog,10,Small,Brown,Loyal,Yes,Low,Moderate
+Cockatiel,Bird,20,Medium,Gray,Loyal,Yes,Low,Difficult
+German Shepherd,Dog,10,Large,White,Friendly,No,High,Easy
+Macaw,Bird,10,Medium,Gray,Playful,Yes,Medium,Difficult
+Macaw,Bird,9,Small,Black,Playful,No,Medium,Easy
+Macaw,Bird,10,Small,Golden,Aggressive,No,Medium,Moderate
+German Shepherd,Dog,5,Small,Gray,Energetic,No,Low,Difficult
+Maine Coon,Cat,9,Medium,Mixed,Aggressive,Yes,Low,Difficult
+Rabbit,Small Animal,8,Small,Golden,Friendly,No,High,Moderate
+Guinea Pig,Small Animal,20,Small,Brown,Loyal,No,Low,Difficult
+Cockatiel,Bird,14,Small,Gray,Loyal,Yes,Medium,Easy
+Macaw,Bird,6,Small,Black,Loyal,No,Medium,Difficult
+Siamese Cat,Cat,5,Small,Mixed,Energetic,Yes,Medium,Easy
+Macaw,Bird,13,Small,Gray,Calm,Yes,Medium,Easy
+Rabbit,Small Animal,12,Small,Mixed,Aggressive,No,Low,Easy
+Parrot,Bird,16,Small,White,Energetic,No,Medium,Difficult
+Persian Cat,Cat,5,Small,Mixed,Playful,No,High,Easy
+Siamese Cat,Cat,16,Medium,Brown,Calm,Yes,Low,Easy
+Siamese Cat,Cat,8,Medium,White,Playful,No,High,Moderate
+Parrot,Bird,13,Medium,Mixed,Friendly,Yes,High,Easy
+German Shepherd,Dog,11,Large,Golden,Playful,Yes,High,Easy
+Rabbit,Small Animal,17,Small,Black,Calm,No,Medium,Difficult
+Parrot,Bird,11,Medium,Golden,Aggressive,No,High,Difficult
+Guinea Pig,Small Animal,11,Small,Brown,Friendly,No,Medium,Moderate
+Siamese Cat,Cat,9,Small,Gray,Playful,Yes,Low,Easy
+Hamster,Small Animal,13,Small,Gray,Aggressive,Yes,High,Easy
+Cockatiel,Bird,19,Medium,Black,Loyal,Yes,High,Difficult
+Guinea Pig,Small Animal,6,Small,Mixed,Playful,No,Medium,Difficult
+Persian Cat,Cat,20,Medium,Black,Energetic,No,Medium,Easy
+Hamster,Small Animal,14,Small,Black,Playful,Yes,Medium,Difficult
+German Shepherd,Dog,20,Medium,Black,Calm,Yes,High,Difficult
+Rabbit,Small Animal,8,Small,Gray,Aggressive,Yes,Low,Difficult
+Rabbit,Small Animal,20,Small,Gray,Friendly,Yes,High,Difficult
+Hamster,Small Animal,7,Small,Brown,Playful,No,Low,Easy
+Maine Coon,Cat,11,Medium,Mixed,Loyal,Yes,Low,Difficult
+Labrador Retriever,Dog,13,Medium,Black,Friendly,Yes,Low,Difficult
+Guinea Pig,Small Animal,9,Small,Golden,Loyal,Yes,Low,Moderate
+Parrot,Bird,17,Medium,Mixed,Aggressive,No,High,Difficult
+German Shepherd,Dog,14,Medium,White,Calm,No,Low,Moderate
+Guinea Pig,Small Animal,10,Small,Black,Playful,Yes,Low,Difficult
+Hamster,Small Animal,9,Small,Black,Playful,No,Low,Moderate
+German Shepherd,Dog,14,Large,White,Playful,No,High,Easy
+Guinea Pig,Small Animal,18,Small,Gray,Energetic,No,Medium,Easy
+German Shepherd,Dog,18,Small,Brown,Playful,No,High,Moderate
+Persian Cat,Cat,9,Small,White,Loyal,No,Low,Difficult
+Golden Retriever,Dog,20,Medium,Golden,Playful,No,Low,Difficult
+Persian Cat,Cat,6,Medium,Brown,Energetic,Yes,High,Easy
+Hamster,Small Animal,16,Small,Black,Energetic,No,Low,Difficult
+Macaw,Bird,9,Medium,Brown,Aggressive,Yes,High,Easy
+Guinea Pig,Small Animal,12,Small,Mixed,Energetic,No,High,Moderate
+Golden Retriever,Dog,6,Large,Brown,Loyal,Yes,Low,Moderate
+Maine Coon,Cat,16,Small,Gray,Energetic,No,Medium,Difficult
+Cockatiel,Bird,11,Small,Black,Loyal,Yes,High,Easy
+Parrot,Bird,18,Medium,White,Loyal,No,High,Difficult
+German Shepherd,Dog,11,Small,Gray,Loyal,No,Medium,Easy
+Persian Cat,Cat,15,Medium,White,Energetic,No,Medium,Easy
+Persian Cat,Cat,6,Medium,Black,Loyal,Yes,Low,Moderate
+Guinea Pig,Small Animal,9,Small,White,Energetic,Yes,Medium,Difficult
+Macaw,Bird,20,Medium,White,Aggressive,Yes,Low,Moderate
+Golden Retriever,Dog,16,Medium,Gray,Friendly,Yes,Medium,Difficult
+Golden Retriever,Dog,15,Large,Golden,Calm,No,High,Moderate
+Cockatiel,Bird,7,Medium,Brown,Energetic,No,High,Easy
+Persian Cat,Cat,12,Medium,Gray,Playful,Yes,Low,Moderate
+Persian Cat,Cat,9,Medium,White,Friendly,Yes,Medium,Moderate
+Persian Cat,Cat,11,Small,Golden,Calm,Yes,Low,Moderate
+Persian Cat,Cat,6,Small,Brown,Loyal,No,Low,Easy
+Macaw,Bird,16,Small,Mixed,Playful,No,High,Easy
+Siamese Cat,Cat,9,Medium,Gray,Energetic,Yes,Low,Moderate
+Guinea Pig,Small Animal,18,Small,Black,Loyal,Yes,Medium,Difficult
+Guinea Pig,Small Animal,11,Small,Gray,Aggressive,No,Medium,Easy
+Rabbit,Small Animal,8,Small,White,Energetic,No,Medium,Easy
+Hamster,Small Animal,8,Small,Gray,Playful,No,Low,Difficult
+Maine Coon,Cat,14,Medium,Gray,Aggressive,No,High,Easy
+Labrador Retriever,Dog,16,Small,Gray,Loyal,Yes,Low,Easy
+Golden Retriever,Dog,17,Medium,Brown,Loyal,No,Medium,Difficult
+Guinea Pig,Small Animal,16,Small,Black,Playful,No,Medium,Difficult
+Labrador Retriever,Dog,9,Large,Brown,Playful,No,High,Moderate
+Guinea Pig,Small Animal,20,Small,Mixed,Aggressive,No,High,Difficult
+Hamster,Small Animal,6,Small,Black,Loyal,No,Medium,Moderate
+Persian Cat,Cat,18,Small,Brown,Loyal,Yes,High,Moderate
+Persian Cat,Cat,5,Small,Black,Friendly,No,Low,Moderate
+Maine Coon,Cat,14,Small,Black,Loyal,No,Medium,Easy
+Labrador Retriever,Dog,13,Medium,Golden,Loyal,No,Low,Moderate
+Golden Retriever,Dog,18,Small,Mixed,Energetic,No,Low,Easy
+Golden Retriever,Dog,13,Large,Mixed,Energetic,Yes,High,Easy
+Guinea Pig,Small Animal,13,Small,Golden,Energetic,No,High,Moderate
+Maine Coon,Cat,19,Medium,White,Aggressive,Yes,High,Easy
+Golden Retriever,Dog,14,Medium,Golden,Playful,Yes,High,Difficult
+Labrador Retriever,Dog,8,Small,White,Playful,Yes,Low,Easy
+Rabbit,Small Animal,11,Small,Mixed,Friendly,No,Low,Easy
+Siamese Cat,Cat,9,Medium,Black,Energetic,Yes,Low,Easy
+Siamese Cat,Cat,20,Medium,Mixed,Calm,No,Medium,Moderate
+Golden Retriever,Dog,18,Medium,Mixed,Calm,Yes,Medium,Moderate
+Cockatiel,Bird,7,Small,Gray,Playful,Yes,Medium,Moderate
+Maine Coon,Cat,11,Small,Black,Aggressive,Yes,High,Easy
+Guinea Pig,Small Animal,5,Small,White,Energetic,Yes,High,Easy
+Maine Coon,Cat,20,Small,Golden,Energetic,Yes,Medium,Moderate
+Hamster,Small Animal,19,Small,Black,Friendly,Yes,High,Difficult
+Persian Cat,Cat,17,Medium,Brown,Energetic,No,Low,Difficult
+Siamese Cat,Cat,13,Medium,Black,Calm,No,High,Moderate
+Golden Retriever,Dog,11,Small,Mixed,Energetic,No,Medium,Difficult
+Golden Retriever,Dog,6,Medium,Golden,Playful,Yes,Low,Moderate
+Cockatiel,Bird,19,Small,White,Calm,No,Low,Difficult
+Parrot,Bird,7,Small,Gray,Playful,No,Low,Easy
+Maine Coon,Cat,13,Small,Black,Calm,No,Low,Difficult
+German Shepherd,Dog,5,Large,Brown,Loyal,Yes,Medium,Easy
+German Shepherd,Dog,13,Small,Gray,Playful,Yes,High,Easy
+Rabbit,Small Animal,5,Small,Mixed,Aggressive,Yes,High,Difficult
+Siamese Cat,Cat,6,Small,Brown,Loyal,No,High,Moderate
+Macaw,Bird,12,Medium,Brown,Aggressive,No,High,Difficult
+Macaw,Bird,17,Small,Black,Playful,No,Low,Difficult
+Maine Coon,Cat,6,Medium,Mixed,Loyal,Yes,Low,Easy
+Parrot,Bird,11,Small,Black,Aggressive,Yes,High,Easy
+Siamese Cat,Cat,13,Small,Mixed,Energetic,Yes,Medium,Moderate
+Persian Cat,Cat,19,Small,Golden,Calm,Yes,Medium,Difficult
+Rabbit,Small Animal,16,Small,White,Calm,Yes,Medium,Easy
+Rabbit,Small Animal,20,Small,Gray,Energetic,Yes,High,Easy
+Parrot,Bird,5,Medium,Black,Loyal,No,High,Moderate
+German Shepherd,Dog,11,Medium,White,Friendly,No,Low,Difficult
+Labrador Retriever,Dog,5,Large,Black,Energetic,Yes,Medium,Moderate
+Guinea Pig,Small Animal,6,Small,Gray,Playful,Yes,High,Moderate
+Cockatiel,Bird,13,Medium,Gray,Energetic,No,Medium,Difficult
+Labrador Retriever,Dog,17,Small,Mixed,Calm,No,High,Difficult
+German Shepherd,Dog,11,Large,Gray,Aggressive,Yes,Medium,Easy
+Guinea Pig,Small Animal,12,Small,Golden,Playful,No,High,Easy
+Rabbit,Small Animal,18,Small,Mixed,Aggressive,Yes,High,Moderate
+Siamese Cat,Cat,10,Small,Gray,Energetic,Yes,Medium,Moderate
+German Shepherd,Dog,10,Medium,Golden,Playful,Yes,Medium,Easy
+Rabbit,Small Animal,20,Small,Mixed,Aggressive,No,High,Difficult
+Cockatiel,Bird,16,Small,White,Aggressive,No,Low,Difficult
+Maine Coon,Cat,8,Small,Black,Energetic,Yes,Low,Easy
+Labrador Retriever,Dog,5,Medium,Golden,Loyal,No,Low,Easy
+Golden Retriever,Dog,9,Large,Gray,Aggressive,Yes,Low,Moderate
+Parrot,Bird,18,Small,Black,Friendly,Yes,Low,Easy
+Labrador Retriever,Dog,10,Medium,Black,Calm,No,Low,Moderate
+Labrador Retriever,Dog,14,Small,Golden,Calm,No,Medium,Moderate
+Maine Coon,Cat,15,Small,Golden,Calm,Yes,High,Moderate
+Guinea Pig,Small Animal,9,Small,Brown,Playful,Yes,Low,Easy
+German Shepherd,Dog,15,Large,White,Energetic,No,Medium,Easy
+Guinea Pig,Small Animal,15,Small,Black,Friendly,No,Medium,Moderate
+Parrot,Bird,19,Medium,White,Calm,Yes,Medium,Moderate
+Siamese Cat,Cat,6,Small,Gray,Loyal,Yes,High,Easy
+Persian Cat,Cat,12,Medium,White,Energetic,Yes,Low,Difficult
+Persian Cat,Cat,15,Medium,Black,Loyal,Yes,Medium,Difficult
+German Shepherd,Dog,15,Medium,Brown,Loyal,No,High,Difficult
+Siamese Cat,Cat,6,Medium,White,Friendly,Yes,High,Difficult
+Parrot,Bird,17,Small,Black,Friendly,No,Medium,Moderate
+Guinea Pig,Small Animal,17,Small,Mixed,Friendly,No,Low,Difficult
+Parrot,Bird,11,Medium,Gray,Calm,Yes,Medium,Difficult
+Persian Cat,Cat,20,Small,Golden,Playful,No,Low,Easy
+Persian Cat,Cat,19,Small,Mixed,Calm,No,Low,Easy
+German Shepherd,Dog,10,Medium,Golden,Loyal,Yes,Medium,Moderate
+Rabbit,Small Animal,15,Small,White,Energetic,No,Low,Easy
+Macaw,Bird,9,Small,White,Calm,No,Low,Moderate
+Maine Coon,Cat,19,Small,White,Calm,Yes,Low,Moderate
+Rabbit,Small Animal,15,Small,Black,Calm,No,Medium,Moderate
+Parrot,Bird,6,Medium,Mixed,Calm,No,High,Difficult
+Cockatiel,Bird,14,Small,Mixed,Friendly,Yes,High,Easy
+Hamster,Small Animal,17,Small,Golden,Energetic,Yes,High,Easy
+Parrot,Bird,14,Medium,Golden,Calm,Yes,Medium,Easy
+Siamese Cat,Cat,9,Medium,Brown,Energetic,Yes,Low,Difficult
+Siamese Cat,Cat,11,Medium,White,Loyal,Yes,Low,Difficult
+Cockatiel,Bird,6,Small,White,Energetic,No,High,Easy
+Parrot,Bird,15,Small,Mixed,Friendly,No,Medium,Easy
+Persian Cat,Cat,11,Small,Gray,Playful,Yes,Low,Easy
+Rabbit,Small Animal,17,Small,Gray,Loyal,Yes,Medium,Easy
+Golden Retriever,Dog,7,Large,Mixed,Loyal,No,High,Easy
+Siamese Cat,Cat,18,Medium,White,Aggressive,Yes,High,Moderate
+Maine Coon,Cat,14,Small,Mixed,Loyal,No,High,Easy
