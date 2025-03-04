@@ -1,6 +1,10 @@
 import streamlit as st
 import sqlite3
 import pandas as pd
+import os
+
+# Get the absolute path to the database
+DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'pets.db')
 
 # Set page config
 st.set_page_config(
@@ -34,19 +38,27 @@ st.markdown("---")
 
 def get_all_breeds():
     """Get all pet breeds from the database"""
-    conn = sqlite3.connect('pets.db')
-    query = "SELECT DISTINCT breed FROM pet_breeds ORDER BY breed"
-    breeds = pd.read_sql_query(query, conn)
-    conn.close()
-    return breeds['breed'].tolist()
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        query = "SELECT DISTINCT breed FROM pet_breeds ORDER BY breed"
+        breeds = pd.read_sql_query(query, conn)
+        conn.close()
+        return breeds['breed'].tolist()
+    except sqlite3.Error as e:
+        st.error(f"Error connecting to database: {e}")
+        return []
 
 def get_pet_details(breed_name):
     """Fetch pet breed details from the database"""
-    conn = sqlite3.connect('pets.db')
-    query = "SELECT * FROM pet_breeds WHERE breed = ?"
-    df = pd.read_sql_query(query, conn, params=(breed_name,))
-    conn.close()
-    return df
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        query = "SELECT * FROM pet_breeds WHERE breed = ?"
+        df = pd.read_sql_query(query, conn, params=(breed_name,))
+        conn.close()
+        return df
+    except sqlite3.Error as e:
+        st.error(f"Error connecting to database: {e}")
+        return pd.DataFrame()
 
 # Sidebar for filtering
 st.sidebar.header("🔍 Search Options")
@@ -109,4 +121,4 @@ if selected_breed:
     else:
         st.error("😢 Breed not found in the database.")
 else:
-    st.info("👈 Please select a pet breed from the sidebar to view detailed information.") 
+    st.info("👈 Please select a pet breed from the sidebar to view detailed information.")

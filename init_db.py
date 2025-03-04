@@ -1,5 +1,10 @@
 import sqlite3
 import csv
+import os
+
+# Get the absolute path to the database and data directory
+DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'pets.db')
+DATA_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data', 'pet_breeds_dataset.csv')
 
 def add_additional_breeds(cursor):
     # Additional pet breeds data
@@ -61,53 +66,61 @@ def add_additional_breeds(cursor):
     ''', additional_breeds)
 
 def init_database():
-    # Connect to SQLite database (creates it if it doesn't exist)
-    conn = sqlite3.connect('pets.db')
-    cursor = conn.cursor()
+    try:
+        # Connect to SQLite database (creates it if it doesn't exist)
+        conn = sqlite3.connect(DB_PATH)
+        cursor = conn.cursor()
 
-    # Create pet_breeds table
-    cursor.execute('''DROP TABLE IF EXISTS pet_breeds''')
-    cursor.execute('''
-    CREATE TABLE IF NOT EXISTS pet_breeds (
-        breed TEXT PRIMARY KEY,
-        animal_type TEXT,
-        lifespan TEXT,
-        size TEXT,
-        color TEXT,
-        temperament TEXT,
-        apartment_suitable TEXT,
-        grooming TEXT,
-        trainability TEXT
-    )
-    ''')
+        # Create pet_breeds table
+        cursor.execute('''DROP TABLE IF EXISTS pet_breeds''')
+        cursor.execute('''
+        CREATE TABLE IF NOT EXISTS pet_breeds (
+            breed TEXT PRIMARY KEY,
+            animal_type TEXT,
+            lifespan TEXT,
+            size TEXT,
+            color TEXT,
+            temperament TEXT,
+            apartment_suitable TEXT,
+            grooming TEXT,
+            trainability TEXT
+        )
+        ''')
 
-    # Read data from CSV file
-    with open('data/pet_breeds_dataset.csv', 'r') as file:
-        csv_reader = csv.DictReader(file)
-        for row in csv_reader:
-            cursor.execute('''
-            INSERT OR REPLACE INTO pet_breeds 
-            (breed, animal_type, lifespan, size, color, temperament, apartment_suitable, grooming, trainability)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-            ''', (
-                row['Breed'],
-                row['Animal Type'],
-                row['Average Lifespan (years)'],
-                row['Size Category'],
-                row['Common Color'],
-                row['Temperament'],
-                row['Suitable for Apartment'],
-                row['Grooming Needs'],
-                row['Trainability']
-            ))
-    
-    # Add additional breeds
-    add_additional_breeds(cursor)
+        # Read data from CSV file
+        with open(DATA_PATH, 'r') as file:
+            csv_reader = csv.DictReader(file)
+            for row in csv_reader:
+                cursor.execute('''
+                INSERT OR REPLACE INTO pet_breeds 
+                (breed, animal_type, lifespan, size, color, temperament, apartment_suitable, grooming, trainability)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ''', (
+                    row['Breed'],
+                    row['Animal Type'],
+                    row['Average Lifespan (years)'],
+                    row['Size Category'],
+                    row['Common Color'],
+                    row['Temperament'],
+                    row['Suitable for Apartment'],
+                    row['Grooming Needs'],
+                    row['Trainability']
+                ))
+        
+        # Add additional breeds
+        add_additional_breeds(cursor)
 
-    # Commit changes and close connection
-    conn.commit()
-    conn.close()
-    print("Database initialized successfully with CSV data and additional breeds!")
+        # Commit changes and close connection
+        conn.commit()
+        conn.close()
+        print("Database initialized successfully with CSV data and additional breeds!")
+        
+    except sqlite3.Error as e:
+        print(f"An error occurred while initializing the database: {e}")
+    except FileNotFoundError:
+        print(f"Error: Could not find the CSV file at {DATA_PATH}")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
 
 if __name__ == "__main__":
     init_database()
