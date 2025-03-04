@@ -3,10 +3,11 @@ import csv
 import os
 
 # Get the absolute path to the database and data directory
-DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'pets.db')
+DB_PATH = os.path.abspath('pets.db')
 DATA_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data', 'pet_breeds_dataset.csv')
 
 def add_additional_breeds(cursor):
+    """Add additional pet breeds to the database"""
     # Additional pet breeds data
     additional_breeds = [
         ('Siberian Husky', 'Dog', '12-14', 'Large', 'Black and White', 'Independent, Energetic, Friendly', 'No', 'High', 'Moderate'),
@@ -59,20 +60,66 @@ def add_additional_breeds(cursor):
         ('Hedgehog', 'Small Animal', '4-6', 'Small', 'Various', 'Solitary, Nocturnal, Gentle', 'Yes', 'Low', 'Difficult')
     ]
     
-    cursor.executemany('''
-    INSERT OR REPLACE INTO pet_breeds 
-    (breed, animal_type, lifespan, size, color, temperament, apartment_suitable, grooming, trainability)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-    ''', additional_breeds)
+    try:
+        cursor.executemany('''
+        INSERT OR REPLACE INTO pet_breeds 
+        (breed, animal_type, lifespan, size, color, temperament, apartment_suitable, grooming, trainability)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ''', additional_breeds)
+        print(f"Successfully added {len(additional_breeds)} additional breeds")
+    except sqlite3.Error as e:
+        print(f"Error adding additional breeds: {e}")
+        raise
+
+def verify_database():
+    """Verify database structure and content"""
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        cursor = conn.cursor()
+        
+        # Check if table exists
+        cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='pet_breeds'")
+        if not cursor.fetchone():
+            print("Table 'pet_breeds' does not exist!")
+            return False
+            
+        # Check row count
+        cursor.execute("SELECT COUNT(*) FROM pet_breeds")
+        count = cursor.fetchone()[0]
+        print(f"Database contains {count} breeds")
+        
+        # Check sample data
+        cursor.execute("SELECT * FROM pet_breeds LIMIT 1")
+        sample = cursor.fetchone()
+        if sample:
+            print("Sample breed:", sample[0])
+        
+        conn.close()
+        return True
+    except sqlite3.Error as e:
+        print(f"Error verifying database: {e}")
+        return False
 
 def init_database():
+    """Initialize the database with pet breeds data"""
+    print(f"Using database at: {DB_PATH}")
+    print(f"Using data file at: {DATA_PATH}")
+    
+    if not os.path.exists(DATA_PATH):
+        raise FileNotFoundError(f"CSV file not found at {DATA_PATH}")
+    
     try:
+        # Remove existing database if it exists
+        if os.path.exists(DB_PATH):
+            os.remove(DB_PATH)
+            print("Removed existing database")
+        
         # Connect to SQLite database (creates it if it doesn't exist)
         conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
-
+        
+        print("Creating pet_breeds table...")
         # Create pet_breeds table
-        cursor.execute('''DROP TABLE IF EXISTS pet_breeds''')
         cursor.execute('''
         CREATE TABLE IF NOT EXISTS pet_breeds (
             breed TEXT PRIMARY KEY,
@@ -86,9 +133,10 @@ def init_database():
             trainability TEXT
         )
         ''')
-
+        
+        print("Reading data from CSV file...")
         # Read data from CSV file
-        with open(DATA_PATH, 'r') as file:
+        with open(DATA_PATH, 'r', encoding='utf-8') as file:
             csv_reader = csv.DictReader(file)
             for row in csv_reader:
                 cursor.execute('''
@@ -107,20 +155,38 @@ def init_database():
                     row['Trainability']
                 ))
         
+        print("Adding additional breeds...")
         # Add additional breeds
         add_additional_breeds(cursor)
-
-        # Commit changes and close connection
-        conn.commit()
-        conn.close()
-        print("Database initialized successfully with CSV data and additional breeds!")
         
+        # Commit changes
+        conn.commit()
+        print("Changes committed to database")
+        
+        # Close connection
+        conn.close()
+        print("Database connection closed")
+        
+        # Verify the database
+        if verify_database():
+            print("Database initialized and verified successfully!")
+        else:
+            print("Database verification failed!")
+            
     except sqlite3.Error as e:
-        print(f"An error occurred while initializing the database: {e}")
-    except FileNotFoundError:
-        print(f"Error: Could not find the CSV file at {DATA_PATH}")
+        print(f"SQLite error occurred: {e}")
+        if os.path.exists(DB_PATH):
+            os.remove(DB_PATH)
+        raise
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
+        if os.path.exists(DB_PATH):
+            os.remove(DB_PATH)
+        raise
 
 if __name__ == "__main__":
-    init_database()
+    try:
+        init_database()
+    except Exception as e:
+        print(f"Failed to initialize database: {e}")
+        exit(1)
